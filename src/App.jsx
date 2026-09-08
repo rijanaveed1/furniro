@@ -1,15 +1,17 @@
 
 import Header from './components/header'
 import HeroSection from "./components/herosection";
+import BrowseRange from "./components/BrowseRange";
+import OurProducts from "./components/OurProducts";
 function App() {
   return (
     <div className="min-h-screen bg-white">
      <Header/>
      <HeroSection />
       {/* Hero section aap khud add karein */}
-      <main className="flex items-center justify-center h-screen text-gray-400 text-lg">
-        Browse The Range
-      </main>
+     
+        <BrowseRange />
+    <OurProducts />
 
      
     </div>
